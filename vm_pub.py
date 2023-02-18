@@ -54,6 +54,6 @@ if __name__ == '__main__':
         #publish date and time in their own topics
         """your code here"""
         client.publish("rcochoa/date",f"{date}")
-        print("Publishing date", f"{date}")
+        print("Publishing date")
         client.publish("rcochoa/time",f"{nowtime}")
         print("Publishing time")
